@@ -1,0 +1,69 @@
+.question{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 3px 5px orange;
+}
+.ans{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.answer{
+    margin-top: -5px;
+    font-size: 25px;
+    padding: 5px;
+    background-image: url("https://pro.cyfrolab.com/uploads/news_image/image/263/z_pyskom.png");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.container{
+    display: none;
+}
+.start2{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    
+     background-image: linear-gradient(orange,rgb(90, 0, 90));
+    color: white;
+}
+.answer:hover{
+    transform:scale(1.5);
+    transition: transform 2s linear;
+}
+.start1{
+       display: block;
+       margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+   
+       background-image: linear-gradient(greenyellow,rgb(90, 0, 90));
+    color: white;
+}
+.start3{
+       display: block;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+   
+    background-image: linear-gradient(#a30000,rgb(90, 0, 90));
+    color: white;
+}
+.h1{
+     text-align: center;
+     background-color:  rgb(90, 0, 90);
+     color:orange;
+}
+h2{
+     text-align: center;
+     margin-top: 50px;
+     color:orange;
+     background-color: rgb(90, 0, 90);
+     display: block;
+}
+body{
+   background-color: rgb(90, 0, 90);
+}
